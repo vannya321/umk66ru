@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>УМК - Уральская механическая компания</title>
+	<style>
+		body {
+			font-family: sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		.header {
+			background-color: #002366;
+			color: #fff;
+			padding: 20px;
+		}
+
+		.title {
+			font-size: 36px;
+			margin: 0;
+		}
+
+		.sub-title {
+			font-size: 24px;
+			margin: 0;
+		}
+
+		.services {
+			padding: 20px;
+		}
+
+		.service {
+			margin-bottom: 20px;
+		}
+
+		.service-title {
+			font-size: 24px;
+			margin: 0;
+			margin-bottom: 10px;
+		}
+
+		.service-description {
+			font-size: 18px;
+			margin: 0;
+		}
+
+		.footer {
+			background-color: #002366;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1 class="title">Уральская механическая компания</h1>
+		<p class="sub-title">Металлообработка на заказ</p>
+	</div>
+
+	<div class="services">
+		<div class="service">
+			<h2 class="service-title">Сверловка</h2>
+			<p class="service-description">Изготовление отверстий в металлических заготовках различной формы и размера.</p>
+		</div>
+		<div class="service">
+			<h2 class="service-title">Шлифовка</h2>
+			<p class="service-description">Обработка поверхности металлических изделий различной формы и размера.</p>
+		</div>
+		<!-- Другие услуги -->
+	</div>
+
+	<div class="footer">
+		<p>© УМК - Уральская механическая компания, 2023</p>
+	</div>
+</body>
+</html>
